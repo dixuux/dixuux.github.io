@@ -1,0 +1,687 @@
+
+/* --------------------------------
+------ FONTS-----------------------
+---------------------------------*/
+
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Special+Elite&display=swap');
+
+
+/* --------------------------------
+------ CSS RESET ------------------
+---------------------------------*/
+
+	* {
+		margin: 0;
+		padding: 0;
+		text-decoration: none;
+	}
+
+/* --------------------------------
+------ General ------------------
+---------------------------------*/
+
+
+	h1 {
+		font-family: 'Special Elite', cursive;
+		font-size: 3em;
+	}
+
+	h2 {
+
+		font-family: 'Special Elite', cursive;
+		font-size: 2em;
+
+	}
+
+
+	h3 {
+
+		font-family: 'Josefin Sans', sans-serif;
+		font-size: 1em;
+	}
+
+
+	p {
+		font-family: 'Josefin Sans', sans-serif;
+		font-size: 1em;
+	}
+
+	h4 {
+		font-family: 'Josefin Sans', sans-serif;
+		font-size: 2em;
+	}
+
+	h5 {
+		font-family: 'Josefin Sans', sans-serif;
+		font-size: 1.5em;
+		line-height: 1em;
+	}
+	}
+
+	button {
+		background-color: none;
+		border: none;
+		cursor: pointer;
+	}
+
+	a {
+		color: black;
+		text-decoration: none;
+	}
+
+	html {
+		scroll-behavior: smooth;
+	}
+
+	main {
+		padding: 16px;
+
+	}
+
+/* --------------------------------
+------ Responsive ------------------
+---------------------------------*/
+
+	@media (max-width: 992px) {
+
+	  #my_logo {
+	  	width: 20vw;
+	  }
+	}
+
+
+
+
+/* --------------------------------
+------ Colors ------------------
+---------------------------------*/
+
+
+	.red {
+		color: #E53F27;
+	}
+
+	.orange {
+		color: #F28121;
+	}
+
+	.grey {
+		color: #707070;
+	}
+
+	.black {
+		color: black;
+	}
+
+	.white {
+		color: white;
+	}
+
+	.teal {
+		color: #90CFC9;
+	}
+
+/* --------------------------------
+------ Layout ------------------
+---------------------------------*/
+	.img-container img{
+		width:100%;
+		display:block;
+	}
+
+	.text-container {
+		margin-top:20px;
+	}
+
+	.responsiveimg {
+	    width:100%;
+	    height:auto;
+	}
+
+	.center {
+	    margin:auto;
+	}
+
+	.border {
+	    border:solid 2px #333;
+	}
+
+	.W1920 {
+	    max-width:1920px;
+	}
+
+	.W1023 {
+	    max-width:1023px;
+	}
+
+	.W412 {
+	    max-width:412px;
+	}
+
+	.W200 {
+		max-width:200px;
+	}
+
+	.banner-padding-medium {
+		padding: 1em 0 0 0;
+	}
+
+	.banner-padding-small {
+		padding: 0.5em 0 0 0;
+	}
+
+	.banner-padding-large {
+		padding: 8em 0 0 0;
+	}
+
+	.item-margin-medium {
+		margin: 2em 1em;
+	}
+
+/*=-=-=-=-===-=-=-=-=-=
+=-=-=-CSS3 KEYFRAMES=-=
+=-=-=-=-=-=-=-=-=-=-==*/
+
+	@keyframes fade-in {
+		0% 		{opacity: 0}
+		100%	{opacity: 1}
+
+	}
+		@-moz-keyframes fade-in {
+			0%		{opacity: 0;}
+			100%	{opacity: 1;}
+		}
+		@-o-keyframes fade-in {
+			0%		{opacity: 0;}
+			100%	{opacity: 1;}
+		}
+		@-webkit-keyframes fade-in {
+			0%		{opacity: 0;}
+			100%	{opacity: 1;}
+		}
+/*=-=-=-=-=-=-=-=-=-=-=
+=-=-=CSS ANIMATIONS=-=-
+=-=-=-=-=-=-=-=-=-=-=-=*/
+
+	.fade-in {
+		animation-name: fade-in;
+			-moz-animation-name: fade-in;
+			-o-animation-name: fade-in;
+			-webkit-animation-name: fade-in;
+		animation-duration: 1s;
+			-moz-animation-duration: 1s;
+			-o-animation-duration: 1s;
+			-webkit-animation-duration: 1s;
+		animation-fill-mode: backwards;
+			-moz-animation-fill-mode: backwards;
+			-o-animation-fill-mode: backwards;
+			-webkit-animation-fill-mode: backwards;
+	}
+/* --------------------------------
+------ Header ------------------
+---------------------------------*/
+
+	#my_main_nav {
+		position: fixed;
+		background-color: white;
+		width: 100%;
+		height: 27vh;
+		z-index: 200;
+	}
+
+  #my_logo {
+  	width: 26vw;
+  	cursor: pointer;
+  	min-width: 200px;
+  }
+
+
+	.logo-container {
+		margin: 2vh 2vh;
+		float:left;
+	}
+
+	.button-container {
+		width: 100%;
+		text-align: right;
+
+	}
+
+	.nav-fix {
+    	height: 26vh;
+	}
+
+	.main-nav-button {
+		padding: 10px 46px;
+ 		text-align: center;
+    	font-size: 2em;
+    	cursor: pointer;
+    	font-family:'Special Elite', cursive;
+    	margin: 12vh 3vw 1vh 0;
+	}
+
+
+
+	#menu_button {
+		background-color: #F28121;
+		box-shadow: -5px 5px #F28121;
+		border: 2px solid white;
+		border-radius: 10px;
+		color: white;
+	}
+
+
+
+	#about_button {
+		background-color: white;
+		box-shadow: -5px 5px #707070;
+		border: 2px solid #707070;
+		border-radius: 10px;
+		color: #707070;
+	}
+
+	#order_button {
+		background-color: #E53F27;
+		box-shadow: -5px 5px #E53F27;
+		border: 2px solid white;
+		border-radius: 10px;
+		color: white;
+	}
+
+
+/*---------------------------
+----------homepage----------
+----------------------------*/
+
+	#home-page-right-section {
+		float: right;
+	}
+
+	.home-page-main {
+		margin: 2rem 4rem;
+		flex: 1;
+	}
+
+	.site {
+		display: flex;
+		min-height: 100vh;
+		flex-direction: column;
+	}
+
+/*---------------------------
+----------Menu-Nav---------------
+----------------------------*/
+
+	.banner {
+		width:100%;
+		padding: 0;
+	}
+
+	#main_nav {
+		background-color: white;
+	}
+
+	.menu-nav {
+		width: 100%;
+		text-align: center;
+	}
+
+	#my_menu_nav {
+		display: none;
+	}
+
+	#my_menu_nav_2 {
+		margin-left: 5vw;
+		width: fit-content;
+		margin-top: 6rem;
+		background-color: white;
+	}
+
+
+
+
+	#my_menu_nav_2 li{
+		display: block;
+		width: fit-content;
+	}
+
+	.menu-button a {
+		color: white;
+	}
+
+	.menu-button {
+		padding: 5px 10px;
+		font-family:'Special Elite', cursive;
+		font-size: 1.5em;
+    	margin: 1vh 1vw 1vh 0;
+    	background-color: #90CFC9;
+    	border: 2px solid white;
+    	border-radius: 10px;
+    	display: inline-block;
+    	box-shadow: -5px 5px #90CFC9;
+    	transition: transform 0.3s;
+	}
+
+	.menu-button:hover {
+		transform: translate(5px, -5px);
+
+	}
+
+
+	.icon {
+	font-size:3em;
+	padding: 10px;
+	}
+
+
+	.button-container .icon {
+  	display: none;
+  	position: absolute;
+	right: 0;
+	top: 0;
+	}
+
+	.button-containerresponsive {
+	z-index: 200;
+    margin-top: 6rem;
+    background-color: white;
+	}
+
+
+ 
+	.button-containerresponsive button {
+    float: none;
+    display: block;
+    margin: 0.2rem auto;
+	}
+
+	.button-containerresponsive .menu-nav {
+
+	background-color: white;
+
+	}
+
+	.button-containerresponsive .menu-button {
+		display: block;
+		width: max-content;
+		margin: 0 auto 0.6rem auto;
+		text-align: left;
+
+	}
+
+
+	@media screen and (max-width: 1210px) {
+	  .button-container button:not(:first-child) {display: none;}
+	  .button-container a.icon {
+	    display: block;
+	  }
+	}
+
+	@media screen and (max-width: 1210px) {
+
+	  .button-containerresponsive .icon {
+	    position: absolute;
+	    right: 0;
+	    top: 0;
+	  }
+	}
+
+	@media screen and (max-width: 522px) {
+
+	  .button-container a.icon {
+	  	float: none;
+	  }
+
+	  	#my_menu_nav_2 li{
+		display: inline-block;
+		width: fit-content;
+		}
+
+		.button-container {
+			margin-top: 0;
+		}
+
+		#my_menu_nav_2 {
+			display: none;
+		}
+	}
+
+
+
+
+/*---------------------------
+----------Menu--------------
+----------------------------*/
+
+
+	.menu-heading {
+		position: -webkit-sticky;
+		position: sticky;
+		background: white;
+		padding:0.5em;
+		top:26vh;
+		z-index:100;
+	}
+
+/*---------------------------
+----------Menu Items---------
+----------------------------*/
+
+
+	.menu-section {
+		margin-left: 29vw;
+	}
+
+	.menu-item h3 {
+		margin-top: 1vh;
+	}
+
+
+	.photo-grid {
+		margin-bottom: 5vh;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: flex-end;
+
+	}
+
+	.menu-item {
+		flex-grow: 1;
+		width: 20%;
+		padding: 1em 1em;
+		margin: 0.5em 0.5em;
+	-webkit-transition:  -webkit-transform .3s ease-out;
+    -moz-transition: -moz-transform .3s ease-out;
+    -o-transition: -o-transform .3s ease-out;
+    -ms-transition: -ms-transform .3s ease-out; 
+    transition: transform .3s ease-out;
+
+	}
+
+	.menu-item img {
+	width: 100%;
+
+	}
+
+	.menu-item:hover {
+	-webkit-transform:scale(1.1);
+   -moz-transform:scale(1.1);
+   -o-transform:scale(1.1);
+   transform:scale(1.1);
+	}
+
+
+	@media screen and (max-width: 522px) {
+		.menu-section {
+		margin-left: 0;
+		}
+
+		.menu-item {
+			width: 20%;
+		}
+	}
+
+	@media screen and (max-width: 1210px) {
+
+		.menu-item {
+			width: 30%;
+		}
+	}
+
+	.photo-grid h3{
+			color: #E53F27;
+	}
+
+/*---------------------------
+----------GRIDCOLORS---------
+----------------------------*/
+
+	.photo-grid p {
+		color: black;
+	}
+
+/*---------------------------
+----------ABOUT---------
+----------------------------*/
+
+.fotorama {
+	width: 60vw;
+	margin: 0 auto;
+}
+
+
+@media screen and (max-width: 522px) {
+	.fotorama {
+		width: 90vw;
+		margin:0;
+	}
+
+}
+
+
+.circle-img-container {
+	border-radius: 100px;
+	width: 200px;
+	height: 200px;
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+
+.chef-card {
+	text-align: center;
+		-webkit-transition:  -webkit-transform .3s ease-out;
+    -moz-transition: -moz-transform .3s ease-out;
+    -o-transition: -o-transform .3s ease-out;
+    -ms-transition: -ms-transform .3s ease-out; 
+    transition: transform .3s ease-out;
+}
+
+.chef-card:hover {
+	-webkit-transform:scale(1.1);
+   -moz-transform:scale(1.1);
+   -o-transform:scale(1.1);
+   transform:scale(1.1);
+	}
+
+#the_chefs {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+
+#samie {
+	background-image: url("../img/samie.jpeg");
+}
+
+#mari {
+	background-image: url("../img/mari.jpeg");
+}
+
+#andre {
+	background-image: url("../img/andre.jpg");
+}
+
+.about-section {
+	width: 80%;
+	max-width: 800px;
+	margin:10vh auto;
+}
+
+
+input {
+	border: solid 2px #90CFC9;
+	padding: 10px;
+}
+
+.form-input {
+	width: 20%;
+    min-width: 200px;
+	margin: 1em 0;
+	font-size: 1.5em;
+}
+
+textarea {
+	width: 100%;
+	min-width: 200px;
+	height: 10vh;
+	border: solid 2px #90CFC9;
+	margin: 1.5em 0;
+	font-size: 1em;
+	padding: 10px;
+}
+
+#send_button {
+	background-color: #90CFC9;
+	box-shadow: -5px 5px #90CFC9;
+	border: 2px solid white;
+	border-radius: 10px;
+}
+
+#send_button a{
+	color: white;
+}
+
+.mapouter{
+	position:relative;
+	text-align:center;
+	margin:5rem auto;
+}
+.gmap_canvas {
+	overflow:hidden;
+	background:none!important;
+}
+
+/*---------------------------
+----------Footer---------
+----------------------------*/
+
+.habana-footer {
+	background-color: #F28121;
+	left:0;
+	bottom:0;
+	width: 100%;
+	flex-wrap: wrap;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	text-align: center;
+	align-items: center;
+}
+
+.footer-column {
+	margin: 2rem;
+}
+
+.habana-footer h3 {
+	margin: 0.2rem 0;
+
+}
+
+
+

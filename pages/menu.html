@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+  
+ <head>
+	<!--
+	_____________   ___    __      __  ___     ___	
+	x         xxx\  xxx\   xx\	   xx\ xxx\    xxx\
+	x    xx    xx | xxx |   xx\   xx / xxx|    xxx |
+	x    xxx    x | xxx |    xx\ xx /  xxx|    xxx |
+	x    xxxx   x | xxx |     xxxx /   xxx|    xxx |
+	x    xxx    x | xxx |    xx /xx\   xxx \___xxx |
+	x    xx    xx | xxx |   xx /  xx\   xxxxxxxxx /
+	x________xxxx | xxx |  xx /    xx\    xxxxx  /
+	\___________ \| \__\|  \_\      \_\   \____\
+	 _____________________________________________
+	|                                             |\
+	|               GD66 Web Design 2             | |
+	|               dixuux.com                    | |
+	|_____________________________________________| |
+	\______________________________________________\|
+	-->
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    
+    <title>Habana Sandwich Menu</title>
+
+    <link rel="stylesheet" href="../css/stylesheet.css" type="text/css">
+
+    <script src="../js/menu.js"></script>
+
+  
+ </head>
+  
+  	<body>
+
+		<header class="banner" id="my_main_nav">
+
+				<a class="logo-container img-container W412" id="my_logo" onclick="window.location.href = '../index.html';">
+					<img src="../img/logo-mod.png">
+				</a>
+
+
+			<div class="button-container" id="my_button_container">
+
+				<a href="javascript:void(0);" class="icon" onclick="hamburgerFunction()">
+				    &#9776
+				</a>
+
+				<button class="main-nav-button" id="order_button" onclick="window.open('https://www.grubhub.com/restaurant/havana-sandwich-company-229-main-st-el-segundo/317687');">Order</button>
+
+				<button class="main-nav-button" id="about_button" onclick="window.location.href = 'about.html';">About</button>
+
+				<button class="main-nav-button" id="menu_button" onclick="menuFunction()">Menu</button>		
+
+				<ul class="menu-nav" id="my_menu_nav" style="display:none;">
+
+					<li class="menu-button" id="sandwich_button"><a href="menu.html#combo_section">Sandwich</a></li>					
+					<li class="menu-button" id="breakfast_button"><a href="menu.html#breakfast_section">Breakfast</a></li>
+					<li class="menu-button" id="bowl_button"><a href="menu.html#bowl_section">Bowl</a></li>
+					<li class="menu-button" id="plate_button"><a href="menu.html#plate_section">Plate</a></li>
+					<li class="menu-button" id="kids_meal_button"><a href="menu.html#kids_meal_section">Kids Meal</a></li>
+					<li class="menu-button" id="greens_button"><a href="menu.html#greens_section">Greens</a></li>
+				</ul>
+
+			</div>
+					<ul class="menu-nav fade-in" id="my_menu_nav_2">
+
+					<li class="menu-button" id="sandwich_button_2"><a href="menu.html#combo_section">Sandwich</a></li>					
+					<li class="menu-button" id="breakfast_button_2"><a href="menu.html#breakfast_section">Breakfast</a></li>
+					<li class="menu-button" id="bowl_button_2"><a href="menu.html#bowl_section">Bowl</a></li>
+					<li class="menu-button" id="plate_button_2"><a href="menu.html#plate_section">Plate</a></li>
+					<li class="menu-button" id="kids_meal_button_2"><a href="menu.html#kids_meal_section">Kids Meal</a></li>
+					<li class="menu-button" id="greens_button_2"><a href="menu.html#greens_section">Greens</a></li>
+
+		</header>
+
+		<div class="nav-fix"></div>
+
+	 	<main class="restaurant-menu" id="my_restaurant_menu">
+
+
+
+	 		<!----------------
+	 		----photo grid----
+	 		------------------->
+<section class="menu-section" id="combo_section">
+		<div class="nav-fix"></div>
+	 	<h1 class="orange menu-heading">Sandwich Combo Meal</h1>
+	 	<div class="img-container W1023">
+	 		<img src="../img/combo.png">
+	 	</div>
+	 	</section>
+
+	 	<section class="menu-section" id="sandwich_section">
+	 		<h1 class="orange menu-heading">Sandwich</h1>
+	 		<h4 class= "teal banner-padding-medium"> Each sandwiche come with pickles, mayo and mustard inside </h4>
+	 		<h4 class= "grey banner-padding-small"> *Lettuce Wrap Option Available </h3>
+
+	 			 <div class="photo-grid banner-padding-medium">
+
+
+				    <div class="menu-item"><img src="../img/sandwich.png"><h3 >Original</h3>
+				    	<p>Pork, Ham, Swiss cheese </p></div>
+
+				    <div class="menu-item"><img src="../img/sandwich.png"><h3 >Miami</h3><p>Roast Pork, Ham, Salami, Swiss</div>
+
+				    <div class="menu-item"><img src="../img/sandwich.png"><h3 >Big Al </h3><p>Ham, Roast Beef, Salami, Swiss</div>
+
+
+				  	<div class="menu-item"><img src="../img/sandwich.png"><h3 >Pajaro</h3><p>Chicken, Turkey, Swiss</p></div>
+				  	<div class="menu-item"><img src="../img/sandwich.png"><h3 >Roast Pork</h3><p>Roast Pork, Swiss</p></div>
+				  	<div class="menu-item"><img src="../img/sandwich.png"><h3 >California</h3><p>Turkey, Roast Beef, Salami, Swiss</p></div>
+
+  
+
+				  	<div class="menu-item"><img src="../img/sandwich.png"><h3 >Roast Beef</h3><p>Roast Beef, Cheese, Lettuce, Tomato</p></div>
+
+				  	<div class="menu-item"><img src="../img/sandwich.png"><h3 >Steak</h3><p>Seasoned Steak, Swiss, Lettuce, Tomatoes</p></div>
+
+				  	<div class="menu-item"><img src="../img/sandwich.png"><h3 >Ham</h3><p>Ham, Swiss, Lettuce, Tomato</p></div>
+
+	
+
+				  	<div class="menu-item"><img src="../img/sandwich.png"><h3 >Pollo</h3><p>Roast Chicken, Swiss, Lettuce, Tomato</p></div>
+				  	<div class="menu-item"><img src="../img/sandwich.png"><h3 >Turkey Breast</h3><p>Turkey Breast, Swiss, Lettuce, Tomato</p></div>
+				  	<div class="menu-item"><img src="../img/sandwich.png"><h3 >Veggie</h3><p>Avocado, Lettuce, Onions, Tomato, Peppers, Swiss, Oil and Vinegar</p></div>
+
+
+	 		</div>
+	 	</section>
+	<section class="menu-section" id="breakfast_section">
+
+		<div class="nav-fix"></div>
+	 	<h1 class="menu-heading orange">Breakfast</h1> 		
+
+	 		<div class="photo-grid banner-padding-medium">
+
+				    <div class="menu-item"><img src="../img/breakfast.jpg"><h3 >Breakfast Burrito</h3><p>chorizo/ ham/ bacon/ pirk/ turkey/ veggie, eggs, cheese, beans </p><h3>$6.79</h3></div>
+				    <div class="menu-item"><img src="../img/breakfast.jpg"><h3 >Two Eggs</h3><p>two eggs any style with hashbrown or beans, rice, and toast </p><h3>$4.79</h3></div>
+				    <div class="menu-item"><img src="../img/breakfast.jpg"><h3 >Fried Steak and Eggs</h3><h3>$7.99</h3></div>
+
+
+				  	<div class="menu-item"><img src="../img/breakfast.jpg"><h3 >Pork Chops and Eggs</h3><h3>$7.99</h3></div>
+				  	<div class="menu-item"><img src="../img/breakfast.jpg"><h3 >Eggs Rancheros</h3><h3>$5.75</h3></div>
+				  	<div class="menu-item"><img src="../img/breakfast.jpg"><h3 >Chilaquiles</h3><h3>$6.99</h3></div>
+
+
+
+				  	<div class="menu-item"><img src="../img/breakfast.jpg"><h3 >Corn Beef or Patrami Eggs</h3><h3>$6.99</h3></div>
+				  	<div class="menu-item"><img src="../img/breakfast.jpg"><h3 >Chorizo and Eggs</h3><h3>$6.99</h3></div>
+				  	<div class="menu-item"><img src="../img/breakfast.jpg"><h3 >Roast Pork and Eggs</h3><h3>$6.99</h3></div>
+
+
+				  	<div class="menu-item"><img src="../img/breakfast.jpg"><h3 >Carmen Special</h3><p>plaintains, onions, eggs</p><h3>$6.99</h3></div>
+				  	<div class="menu-item"><img src="../img/breakfast.jpg"><h3 >Huevo A La Mexicana</h3><p>ham, bell pepper, tomatoes, onions</p><h3>$6.99</h3></div>
+				  	<div class="menu-item"><img src="../img/breakfast.jpg"><h3 >Lox Eggs and Onions</h3><h3>$9.25</h3></div>
+
+
+
+
+
+	 	</section>
+
+	 	
+
+	 	<section class="menu-section" id="bowl_section">
+		<div class="nav-fix"></div>
+	 		<h1 class="orange menu-heading">Bowl</h1>
+	 			 <div class="photo-grid banner-padding-medium">
+
+
+				    <div class="menu-item"><img src="../img/bowl.jpg"><h3 >Breakfast Burrito</h3><p>chorizo/ ham/ bacon/ pirk/ turkey/ veggie, eggs, cheese, beans </p><h3>$6.79</h3></div>
+				    <div class="menu-item"><img src="../img/bowl.jpg"><h3 >Two Eggs</h3><p>two eggs any style with hashbrown or beans, rice, and toast </p><h3>$4.79</h3></div>
+				    <div class="menu-item"><img src="../img/bowl.jpg"><h3 >Fried Steak and Eggs</h3><h3>$7.99</h3></div>
+
+
+				  	<div class="menu-item"><img src="../img/bowl.jpg"><h3 >Pork Chops and Eggs</h3><h3>$7.99</h3></div>
+				  	<div class="menu-item"><img src="../img/bowl.jpg"><h3 >Eggs Rancheros</h3><h3>$5.75</h3></div>
+				  	<div class="menu-item"><img src="../img/bowl.jpg"><h3 >Chilaquiles</h3><h3>$6.99</h3></div>
+
+ 
+
+				  	<div class="menu-item"><img src="../img/bowl.jpg"><h3 >Corn Beef or Patrami Eggs</h3><h3>$6.99</h3></div>
+				  	<div class="menu-item"><img src="../img/bowl.jpg"><h3 >Chorizo and Eggs</h3><h3>$6.99</h3></div>
+				  	<div class="menu-item"><img src="../img/bowl.jpg"><h3 >Roast Pork and Eggs</h3><h3>$6.99</h3></div>
+				  
+			
+				  	<div class="menu-item"><img src="../img/bowl.jpg"><h3 >Carmen Special</h3><p>plaintains, onions, eggs</p><h3>$6.99</h3></div>
+				  	<div class="menu-item"><img src="../img/bowl.jpg"><h3 >Huevo A La Mexicana</h3><p>ham, bell pepper, tomatoes, onions</p><h3>$6.99</h3></div>
+				  	<div class="menu-item"><img src="../img/bowl.jpg"><h3 >Lox Eggs and Onions</h3><h3>$9.25</h3></div>
+				 
+			
+	 		</div>
+	 	</section>
+
+	 	<section class="menu-section" id="plate_section">
+		<div class="nav-fix"></div>
+	 		<h1 class="orange menu-heading">Plate</h1>
+	 			 <div class="photo-grid banner-padding-medium">
+
+
+				    <div class="menu-item"><img src="../img/plate.jpg"><h3 >Breakfast Burrito</h3><p>chorizo/ ham/ bacon/ pirk/ turkey/ veggie, eggs, cheese, beans </p><h3>$6.79</h3></div>
+				    <div class="menu-item"><img src="../img/plate.jpg"><h3 >Two Eggs</h3><p>two eggs any style with hashbrown or beans, rice, and toast </p><h3>$4.79</h3></div>
+				    <div class="menu-item"><img src="../img/plate.jpg"><h3 >Fried Steak and Eggs</h3><p>Lorem, ipsum ,dolor sit, amet, consectetur, adipiscing </p><h3>$7.99</h3></div>
+
+
+				  	<div class="menu-item"><img src="../img/plate.jpg"><h3 >Pork Chops and Eggs</h3><p>Lorem, ipsum ,dolor sit, amet, consectetur, adipiscing </p><h3>$7.99</h3></div>
+				  	<div class="menu-item"><img src="../img/plate.jpg"><h3 >Eggs Rancheros</h3><p>Lorem, ipsum ,dolor sit, amet, consectetur, adipiscing </p><h3>$5.75</h3></div>
+				  	<div class="menu-item"><img src="../img/plate.jpg"><h3 >Chilaquiles</h3><p>Lorem, ipsum ,dolor sit, amet, consectetur, adipiscing </p><h3>$6.99</h3></div>
+
+ 
+
+				  	<div class="menu-item"><img src="../img/plate.jpg"><h3 >Corn Beef or Patrami Eggs</h3><p>Lorem, ipsum ,dolor sit, amet, consectetur, adipiscing </p><h3>$6.99</h3></div>
+				  	<div class="menu-item"><img src="../img/plate.jpg"><h3 >Chorizo and Eggs</h3><p>Lorem, ipsum ,dolor sit, amet, consectetur, adipiscing </p><h3>$6.99</h3></div>
+				  	<div class="menu-item"><img src="../img/plate.jpg"><h3 >Roast Pork and Eggs</h3><p>Lorem, ipsum ,dolor sit, amet, consectetur, adipiscing </p><h3>$6.99</h3></div>
+
+
+				  	<div class="menu-item"><img src="../img/plate.jpg"><h3 >Carmen Special</h3><p>plaintains, onions, eggs</p><h3>$6.99</h3></div>
+				  	<div class="menu-item"><img src="../img/plate.jpg"><h3 >Huevo A La Mexicana</h3><p>ham, bell pepper, tomatoes, onions</p><h3>$6.99</h3></div>
+				  	<div class="menu-item"><img src="../img/plate.jpg"><h3 >Lox Eggs and Onions</h3><p>Lorem, ipsum ,dolor sit, amet, consectetur, adipiscing </p><h3>$9.25</h3></div>
+
+
+
+	 		</div>
+	 	</section>
+
+	 	<section class="menu-section" id="kids_meal_section">
+		<div class="nav-fix"></div>
+	 		<h1 class="orange menu-heading">Kid's Meal</h1>
+	 			 <div class="photo-grid banner-padding-medium">
+
+
+				    <div class="menu-item"><img src="../img/kids.jpg"><h3 >Breakfast Burrito</h3><p>chorizo/ ham/ bacon/ pirk/ turkey/ veggie, eggs, cheese, beans </p><h3>$6.79</h3></div>
+				    <div class="menu-item"><img src="../img/kids.jpg"><h3 >Two Eggs</h3><p>two eggs any style with hashbrown or beans, rice, and toast </p><h3>$4.79</h3></div>
+				    <div class="menu-item"><img src="../img/kids.jpg"><h3 >Fried Steak and Eggs</h3><p>Lorem, ipsum ,dolor sit, amet, consectetur, adipiscing </p><h3>$7.99</h3></div>
+
+
+				  	<div class="menu-item"><img src="../img/kids.jpg"><h3 >Pork Chops and Eggs</h3><p>Lorem, ipsum ,dolor sit, amet, consectetur, adipiscing </p><h3>$7.99</h3></div>
+				  	<div class="menu-item"><img src="../img/kids.jpg"><h3 >Eggs Rancheros</h3><p>Lorem, ipsum ,dolor sit, amet, consectetur, adipiscing </p><h3>$5.75</h3></div>
+				  	<div class="menu-item"><img src="../img/kids.jpg"><h3 >Chilaquiles</h3><p>Lorem, ipsum ,dolor sit, amet, consectetur, adipiscing </p><h3>$6.99</h3></div>
+
+ 
+
+				  	<div class="menu-item"><img src="../img/kids.jpg"><h3 >Corn Beef or Patrami Eggs</h3><p>Lorem, ipsum ,dolor sit, amet, consectetur, adipiscing </p><h3>$6.99</h3></div>
+				  	<div class="menu-item"><img src="../img/kids.jpg"><h3 >Chorizo and Eggs</h3><p>Lorem, ipsum ,dolor sit, amet, consectetur, adipiscing </p><h3>$6.99</h3></div>
+				  	<div class="menu-item"><img src="../img/kids.jpg"><h3 >Roast Pork and Eggs</h3><p>Lorem, ipsum ,dolor sit, amet, consectetur, adipiscing </p><h3>$6.99</h3></div>
+
+
+				  	<div class="menu-item"><img src="../img/kids.jpg"><h3 >Carmen Special</h3><p>plaintains, onions, eggs</p><h3>$6.99</h3></div>
+				  	<div class="menu-item"><img src="../img/kids.jpg"><h3 >Huevo A La Mexicana</h3><p>ham, bell pepper, tomatoes, onions</p><h3>$6.99</h3></div>
+				  	<div class="menu-item"><img src="../img/kids.jpg"><h3 >Lox Eggs and Onions</h3><p>Lorem, ipsum ,dolor sit, amet, consectetur, adipiscing </p><h3>$9.25</h3></div>
+
+
+	 		</div>
+	 	</section>
+
+	 	<section class="menu-section" id="greens_section">
+		<div class="nav-fix"></div>
+	 		<h1 class="orange menu-heading">Greens</h1>
+	 			<div class="photo-grid banner-padding-medium">
+
+				    <div class="menu-item"><img src="../img/greens.jpg"><h3 >Breakfast Burrito</h3><p>chorizo/ ham/ bacon/ pirk/ turkey/ veggie, eggs, cheese, beans </p><h3>$6.79</h3></div>
+				    <div class="menu-item"><img src="../img/greens.jpg"><h3 >Two Eggs</h3><p>two eggs any style with hashbrown or beans, rice, and toast </p><h3>$4.79</h3></div>
+				    <div class="menu-item"><img src="../img/greens.jpg"><h3 >Fried Steak and Eggs</h3><p>Lorem, ipsum ,dolor sit, amet, consectetur, adipiscing </p><h3>$7.99</h3></div>
+
+
+				  	<div class="menu-item"><img src="../img/greens.jpg"><h3 >Pork Chops and Eggs</h3><p>Lorem, ipsum ,dolor sit, amet, consectetur, adipiscing </p><h3>$7.99</h3></div>
+				  	<div class="menu-item"><img src="../img/greens.jpg"><h3 >Eggs Rancheros</h3><p>Lorem, ipsum ,dolor sit, amet, consectetur, adipiscing </p><h3>$5.75</h3></div>
+				  	<div class="menu-item"><img src="../img/greens.jpg"><h3 >Chilaquiles</h3><p>Lorem, ipsum ,dolor sit, amet, consectetur, adipiscing </p><h3>$6.99</h3></div>
+
+
+				  	<div class="menu-item"><img src="../img/greens.jpg"><h3 >Corn Beef or Patrami Eggs</h3><p>Lorem, ipsum ,dolor sit, amet, consectetur, adipiscing </p><h3>$6.99</h3></div>
+				  	<div class="menu-item"><img src="../img/greens.jpg"><h3 >Chorizo and Eggs</h3><p>Lorem, ipsum ,dolor sit, amet, consectetur, adipiscing </p><h3>$6.99</h3></div>
+				  	<div class="menu-item"><img src="../img/greens.jpg"><h3 >Roast Pork and Eggs</h3><p>Lorem, ipsum ,dolor sit, amet, consectetur, adipiscing </p><h3>$6.99</h3></div>
+
+
+				  	<div class="menu-item"><img src="../img/greens.jpg"><h3 >Carmen Special</h3><p>plaintains, onions, eggs</p><h3>$6.99</h3></div>
+				  	<div class="menu-item"><img src="../img/greens.jpg"><h3 >Huevo A La Mexicana</h3><p>ham, bell pepper, tomatoes, onions</p><h3>$6.99</h3></div>
+				  	<div class="menu-item"><img src="../img/greens.jpg"><h3 >Lox Eggs and Onions</h3><p>Lorem, ipsum ,dolor sit, amet, consectetur, adipiscing </p><h3>$9.25</h3></div>
+
+
+
+	 		</div>
+	 	</section>
+
+		</main>
+		<footer class="habana-footer">
+			<div class="footer-column"><h3 class="white">213-482-0391</h3></div>
+			<div class="footer-column"><h3 class="white">2222 Main St. Crola Mountain</h3></div>
+			<div class="footer-column">
+				<div class="hours-day"><h3 class="white">Mon 7:00am-7:00pm</h3></div>
+				<div class="hours-day"><h3 class="white">Tues 7:00am-7:00pm</h3></div>
+				<div class="hours-day"><h3 class="white">Wed 7:00am-7:00pm</h3></div>
+				<div class="hours-day"><h3 class="white">Thurs 7:00am-7:00pm</h3></div>
+				<div class="hours-day"><h3 class="white">Fri 7:00am-7:00pm</h3></div>
+				<div class="hours-day"><h3 class="white">Sat 7:00am-6:00pm</h3></div>
+				<div class="hours-day"><h3 class="white">Sun 7:00am-5:00pm</h3></div>
+			</div>
+
+		</footer>
+	</body>
+</html>
